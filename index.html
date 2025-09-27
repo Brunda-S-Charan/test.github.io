@@ -1,184 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Brunda S - Assistant Professor, CSE,  BMSIT</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        :root {
-            --primary: #234e70;
-            --accent: #4f8a8b;
-            --bg: #fff;
-            --menu-bg: #f8f9fa;
-        }
-        body {
-            margin: 0;
-            background: var(--bg);
-            font-family: 'Segoe UI', Arial, sans-serif;
-            color: var(--primary);
-        }
-        header {
-            background: var(--menu-bg);
-            box-shadow: 0 2px 8px rgba(170,170,255,0.08);
-            padding: 1.2rem 0;
-        }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 0 1.5rem;
-        }
-        nav {
-            display: flex;
-            gap: 2rem;
-            justify-content: flex-end;
-            margin-bottom: 0.5rem;
-        }
-        nav a {
-            text-decoration: none;
-            color: var(--accent);
-            font-weight: 500;
-            transition: color 0.2s;
-        }
-        nav a:hover {
-            color: var(--primary);
-        }
-        .header-main {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 1.2rem;
-        }
-        .avatar {
-            width: 80px;
-            height: 80px;
-            background: #eaeaea;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        .title-group {
-            flex: 1;
-        }
-        h1 {
-            font-size: 2.2rem;
-            margin: 0;
-            font-weight: 700;
-            color: var(--primary);
-        }
-        h2 {
-            font-size: 1.2rem;
-            margin: 0.2rem 0 0 0;
-            color: var(--accent);
-            font-weight: 500;
-        }
-        main {
-            margin-top: 2.5rem;
-        }
-        section {
-            margin-bottom: 2.2rem;
-        }
-        section h3 {
-            font-size: 1.3rem;
-            margin-bottom: 0.7rem;
-            color: var(--primary);
-            border-left: 4px solid var(--accent);
-            padding-left: 0.7rem;
-        }
-        ul {
-            padding-left: 1.2rem;
-        }
-        .contact-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        .contact-list li {
-            margin-bottom: 0.6rem;
-            font-size: 1rem;
-        }
-        .contact-list a {
-            color: var(--accent);
-            text-decoration: none;
-        }
-        .contact-list a:hover {
-            text-decoration: underline;
-        }
-        @media (max-width: 600px) {
-            .header-main {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            nav {
-                gap: 1rem;
-                font-size: 1rem;
-            }
-            .container {
-                padding: 0 0.7rem;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KrishiConnect - Farmer Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6f2ff; /* light blue background */
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #3399ff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #0066cc;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, textarea, select, button {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #3399ff;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+    }
+    button:hover {
+      background-color: #267acc;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <a href="#about">About</a>
-                <a href="#research">Research</a>
-                <a href="#publications">Publications</a>
-                <a href="#courses">Courses</a>
-                <a href="#contact">Contact</a>
-            </nav>
-            <div class="header-main">
-                <img src="https://ui-avatars.com/api/?name=Brunda+S&size=80&background=234e70&color=fff" alt="Brunda S Avatar" class="avatar">
-                <div class="title-group">
-                    <h1>Brunda S</h1>
-                    <h2>Assistant Professor, BMSIT</h2>
-                </div>
-            </div>
-        </div>
-    </header>
-    <main class="container">
-        <section id="about">
-            <h3>About Me</h3>
-            <p>
-                I am an Assistant Professor at BMSIT with a passion for teaching and research. I have 7 years of teaching experience and previously worked at VMWare. I strive to inspire students and foster an environment of learning and curiosity.
-            </p>
-        </section>
-        <section id="research">
-            <h3>Research Interests</h3>
-            <ul>
-                <li>Artificial Intelligence (AI)</li>
-                <li>Machine Learning (ML)</li>
-                <li>Deep Learning</li>
-                <li>Image Processing</li>
-            </ul>
-        </section>
-        <section id="publications">
-            <h3>Publications / Achievements</h3>
-            <ul>
-                <li>5 peer-reviewed publications in reputed journals</li>
-                <li>Recipient of <strong>Best Faculty Award</strong> at BMSIT</li>
-                <li>Presented research at national and international conferences</li>
-                <li>Mentored student research projects</li>
-            </ul>
-        </section>
-        <section id="courses">
-            <h3>Courses Taught</h3>
-            <ul>
-                <li>Theory of Computation (TOC)</li>
-                <li>Database Management Systems (DBMS)</li>
-                <li>Java Programming</li>
-                <li>Python Programming</li>
-                <li>C Programming</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h3>Contact</h3>
-            <ul class="contact-list">
-                <li>Email: <a href="mailto:brunda@example.com">brunda@example.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/brunda-s-charan/" target="_blank">linkedin.com/in/brunda-s-charan</a></li>
-                <li>GitHub: <a href="https://github.com/Brunda-S-Charan" target="_blank">github.com/Brunda-S-Charan</a></li>
-            </ul>
-        </section>
-    </main>
+  <header>
+    <h1>KrishiConnect - Farmer Portal</h1>
+    <p>Directly connect with buyers, list your crops easily!</p>
+  </header>
+
+  <div class="container">
+    <h2>Farmer Produce Listing</h2>
+    <form>
+      <label for="name">Farmer Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+
+      <label for="crop">Crop Name:</label>
+      <input type="text" id="crop" name="crop" placeholder="E.g., Tomato, Onion">
+
+      <label for="quantity">Quantity (in kg):</label>
+      <input type="number" id="quantity" name="quantity">
+
+      <label for="price">Expected Price (₹/kg):</label>
+      <input type="number" id="price" name="price">
+
+      <label for="harvest">Harvest Date:</label>
+      <input type="date" id="harvest" name="harvest">
+
+      <label for="details">Additional Details:</label>
+      <textarea id="details" name="details" rows="4" placeholder="Quality, organic info, etc."></textarea>
+
+      <button type="submit">Submit Listing</button>
+    </form>
+  </div>
 </body>
 </html>
